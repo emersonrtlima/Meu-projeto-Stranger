@@ -39,14 +39,14 @@ section {
 }
 
 button {
-    background-color: transparent;
+    background-color: rgba(208, 216, 208, 0.13);
     color: white;
     font-size: 12px;
     display: flex;
     gap: 16px;
     border: none;
     outline: none;
-    padding: 12px 0px;
+    padding: 12px 6px;
     border-bottom: 1px solid white;
 }
 
@@ -131,7 +131,6 @@ h2 {
     height: 100%;
     position: absolute;
     z-index: 2;
-    background-color: green;
     left: 0;
     top: 0;
     background: linear-gradient(180deg, rgba(12, 1, 2, 0.00) 0%, #0C0102 100%);
@@ -353,7 +352,7 @@ footer {
             display: flex;
             width: max-content;
             gap: 32px;
-            animation: textoInfinito 35s infinite linear;
+            animation: textoInfinito 60s infinite linear;
         }
     }
 
