@@ -65,7 +65,6 @@ grupoTextoSplit.forEach((textoUnicoSplit) => {
     duration: 0.3,
     stagger: 0.04,
     scrollTrigger: {
-      markers: true,
       trigger: textoUnicoSplit,
       start: "0% 87%",
     },
