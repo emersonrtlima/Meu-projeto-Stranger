@@ -17,11 +17,6 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-button {
-    font-family: "Poppins", sans-serif;
-    cursor: pointer;
-}
-
 /* Style do Header */
 header {
     width: 100%;
@@ -39,6 +34,8 @@ section {
 }
 
 button {
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
     background-color: rgba(208, 216, 208, 0.13);
     color: white;
     font-size: 12px;
@@ -224,7 +221,8 @@ h2 {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        li{
+
+        li {
             cursor: pointer;
         }
     }
@@ -285,7 +283,8 @@ footer {
             ul {
                 display: flex;
                 gap: 12px;
-                li{
+
+                li {
                     cursor: pointer;
                 }
             }
